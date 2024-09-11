@@ -9,3 +9,18 @@ Steps to follow:
 - npm run dev
 
 this is needs to be done in both the frontend and backend seperately.
+
+DOCKER SETUP
+
+the Docker is set up in both the projects. for you to run docker, you need to follow the steps below:
+
+Frontend:
+
+docker build -t demo-insuranceassist-frontend .  
+docker run -p 8080:80 demo-insuranceassist-frontend 
+
+
+Back END:
+
+docker build -t demo-insuranceassit-backend .       
+docker run -p 8081:4000 demo-insuranceassit-backend 
