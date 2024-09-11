@@ -70,15 +70,10 @@ function ChatScreen() {
   }
   return (
     <div className={styles.outerContainer}>
-     
- 
-
       <div className={styles.container}>
-      <div>Nancy:- Your AI Insurance Assistant</div>
-      <br />
+        <div>Nancy:- Your AI Insurance Assistant</div>
+        <br />
         <div className={styles.chatContainer}>
-       
-        
           {chatHistory.map((message) => (
             <div key={message.id}>
               {message.role === "user" && (

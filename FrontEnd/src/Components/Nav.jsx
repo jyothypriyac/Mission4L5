@@ -5,7 +5,7 @@ import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 export default function Nav() {
   return (
-    <div style={{width:'100%'}}>
+    <div style={{ width: "100%" }}>
       <div className={Style.topHeaderNavOne}>
         {/* first navbar */}
         <div>

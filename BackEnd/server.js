@@ -87,7 +87,7 @@ async function StopChat(req, res) {
   });
   try {
     const result = await chatSession.sendMessage("stop");
-    // const responseText = result.response.text();
+
     console.log("Stop response", result);
     currentMessages = [];
   } catch (error) {
