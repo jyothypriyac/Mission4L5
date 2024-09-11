@@ -1,0 +1,16 @@
+
+
+
+.footerBottom{
+    background-color:#0073cf;
+    display: flex;
+  justify-content: right;
+  gap: 3%;
+  padding-top: 2%;
+  color: white;
+  text-align: center;
+  padding-bottom: 2%;
+}
+.copyRight{
+  padding-right: 120vh;
+}
