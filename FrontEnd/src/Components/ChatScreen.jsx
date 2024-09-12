@@ -58,14 +58,6 @@ function ChatScreen() {
       ]);
     } catch (error) {
       console.error("Error:", error);
-      fetch("http://localhost:8082/api/StopChat");
-      setChatHistory([
-        ...chatHistory,
-        {
-          role: "model",
-          parts: [{ text: "An error occurred while processing your request." }],
-        },
-      ]);
     }
   }
   return (

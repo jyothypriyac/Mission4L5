@@ -55,7 +55,7 @@ async function handleChat(req, res) {
     return res.status(400).json({ error: "Missing user message" });
   }
 
-  // Restore the previous context
+  // Store the chat history
   currentMessages.push({
     role: "user",
     parts: [{ text: userMessage.toString() }],
